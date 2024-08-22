@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booksy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "headling">
+        <h1>BOOKYS</h1>
+    </div>
+    <div class = "contianer">
+       <div class = "book-contianer">
+        <h2>dad is hardworker</h2>
+        <h5>author</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellendus corporis aperiam amet reiciendis quidem, inventore, facere, accusantium saepe ipsa architecto dignissimos adipisci maxime. Quasi, perferendis. Vel esse fugiat ab?</p>
+     <button onclick="deletebook(event)">delete</button>  
+    </div>
+    </div>
+    <div class = "popup-overlay"> </div>
+    <div class = "popupbox">
+        <h2>Add Book</h2>
+        <form>
+            <input type = "text" placeholder="Book Name" class = "input-bookname"><br>
+            <input type="text" placeholder="Author Name" class = "input-authorname"><br>
+            <textarea placeholder="shot on description" class = "input-description"></textarea><br>
+            <button class ="add">Add</button>
+            <button class="cancel">Cancel</button>
+        </form>
+
+    </div>
+    <button class = "add-button">+</button>
+    <script  defer src="javas.js" ></script>
+</body>
+</html>
